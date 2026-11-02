@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #eaf2ff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 15px;
+  background: linear-gradient(135deg, #10233d, #123b56);
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header p {
+  color: #63d8ee;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: #121e31;
+  border: 1px solid #263b56;
+  border-radius: 14px;
+  padding: 25px;
+  margin: 20px 0;
+}
+
+.card h2 {
+  color: #63d8ee;
+}
+
+.note {
+  font-size: 13px;
+  color: #a6b7cc;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #91a4bd;
+}
